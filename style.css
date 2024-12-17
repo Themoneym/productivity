@@ -1,0 +1,75 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(backgroundimage.webp);
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+.timercontainer{
+    max-width: 400px;
+    margin: 50px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+}
+
+h1{  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  font-style: italic;
+  font-size: larger;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: rgb(4, 9, 80);  
+}
+
+.settings{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #000000;
+}
+
+input{
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background: #3000b3;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover{
+    background: #b31500;
+}
+
+.display{
+    margin-top: 20px;
+}
+
+#timer-display{
+    font-size: 48px;
+    color: #030303;
+}
+
+#status-display{
+    font-size: 18px;
+    color: #000000;
+}
